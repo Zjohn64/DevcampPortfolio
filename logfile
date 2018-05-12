@@ -1,0 +1,6 @@
+2018-05-11 16:28:34.124 EDT [2415] LOG:  listening on IPv6 address "::1", port 5432
+2018-05-11 16:28:34.124 EDT [2415] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-05-11 16:28:34.256 EDT [2415] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2018-05-11 16:28:34.415 EDT [2416] LOG:  database system was shut down at 2018-05-11 16:28:00 EDT
+2018-05-11 16:28:34.418 EDT [2415] LOG:  database system is ready to accept connections
+2018-05-11 16:28:54.481 EDT [2430] FATAL:  database "DevcampPortfolio_development" does not exist

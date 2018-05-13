@@ -4,3 +4,6 @@
 2018-05-11 16:28:34.415 EDT [2416] LOG:  database system was shut down at 2018-05-11 16:28:00 EDT
 2018-05-11 16:28:34.418 EDT [2415] LOG:  database system is ready to accept connections
 2018-05-11 16:28:54.481 EDT [2430] FATAL:  database "DevcampPortfolio_development" does not exist
+2018-05-13 09:38:52.849 EDT [2415] LOG:  received smart shutdown request
+2018-05-13 09:38:52.850 EDT [2415] LOG:  worker process: logical replication launcher (PID 2422) exited with exit code 1
+2018-05-13 09:38:52.850 EDT [2417] LOG:  shutting down

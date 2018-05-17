@@ -3,6 +3,10 @@ class PortfoliosController < ApplicationController
     @portfolio_items = Portfolio.all
   end
 
+  def angular
+    @angular_port_items = Portfolio.angular
+  end
+
   def new
     @portfolio_item = Portfolio.new
   end
@@ -17,7 +21,7 @@ class PortfoliosController < ApplicationController
         format.html { render :new }
       end
     end
-  end
+  end 
 
   def show
     @portfolio_item = Portfolio.find(params[:id])
